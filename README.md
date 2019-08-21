@@ -43,9 +43,8 @@ TrustVisionSDK.init(this, YOUR_APP_KEY, YOUR_APP_SECRET, this);
 - Build and run the example app
 
 
-## Installing SDK
-
-###1. Adding the SDK to your project
+## Integration Steps
+### 1. Adding the SDK to your project
 
 * Get library file `tv_sdk.zip`, extract and put all files into a folder in android project.</br>
 Example: folder `${project.rootDir}/repo` 
@@ -105,7 +104,7 @@ android.enableJetifier=true
 
 
 		 
-###2. Initialize SDK
+### 2. Initialize SDK
 To initialize the SDK, add the following line to your app before calling any of the SDK functionalities. For example,  you can add it to the `onCreate` method of the application class.
  
 ```java
@@ -126,7 +125,7 @@ To initialize the SDK, add the following line to your app before calling any of 
     }
 ```
 Please note: The SDK requires **Camera** permissions to capture images.Camera permissions will be handled by the SDK if not already handled by the app.
-###3. Start the SDK
+### 3. Start the SDK
 The SDK provides some built in Activities, to start the SDK:
 
 1. Set config parameters 
@@ -156,7 +155,7 @@ The SDK provides some built in Activities, to start the SDK:
 3. Camera options: When capturing selfie, we can choose front camera or back camera and it could be config by setting from dashboard. Use this method to get list card types
 
 
-###4. Handle the Result
+### 4. Handle the Result
 The result will be sent to `onActivityResult` method.
 
 ```java
