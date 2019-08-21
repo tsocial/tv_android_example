@@ -1,8 +1,3 @@
----
-title: "Android SDK Guidelines"
-priority: 3
-group: "mobile_sdk"
----
 ## OVERVIEW
 TrustVision SDK is an android SDK for TrustVision Engine. It provides these features:
 
