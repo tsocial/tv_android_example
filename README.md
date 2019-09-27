@@ -24,8 +24,7 @@ TrustVision SDK is an android SDK for TrustVision Engine. It provides these feat
 	- [1. Adding the SDK to your project](#1-adding-the-sdk-to-your-project)
 	- [2. Initialize SDK](#2-initialize-sdk)
 	- [3. Start the SDK](#3-start-the-sdk)
-	- [4. Handle the Result](#4-handle-the-result)
-- [API References](#api-references)		
+	- [4. Handle the Result](#4-handle-the-result)	
 
 
 ## Example Project
@@ -179,8 +178,5 @@ TVDetectionResult result = (TVDetectionResult) data.getSerializableExtra(TrustVi
 
 * `getLivenessResult()` : return **TVLivenessResult**. It is the result from liveness checking with score. If the action mode is FACE_MATCHING or OCR, the result will be empty.
 * `getFaceCompareResult()`: return **TVCompareFacesResul**. It is result from liveness checking and contains id image, selfie image, matched or not matching, score matching. If the action mode is LIVENESS or OCR, the result will be empty
-* `getCardInfoResult()`: return **TVCardInfoResult**. It constaint card information.
+* `getCardInfoResult()`: return **TVCardInfoResult**. It constains card information.
 * `getError()`: TVDetectionError is error object returned in case of failure in Request Permission. Please always call this method to check error first before getting the result.
-
-## API References
-The api references can be found from [here]()
